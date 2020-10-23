@@ -26,14 +26,18 @@ This project is a small restaurant app created using javascript.
 - JavaScript
 - HTML 5 and CSS 3.
 
-## Screenshot <a name = "sc"></a>
+## Project Screenshot <a name = "sc"></a>
 
-![screenshot]()
+![Home Page](dist/assets/img/home.png)
+
+![Menu Page](dist/assets/img/menu.png)
+
+![Contact Page](dist/assets/img/contact.png)
 
 
 ## Live Demo Link <a name = "ll"></a>
 
-[Live Demo]()
+[Live Demo](https://dipeshtwis.github.io/Restaurant/)
 
 
 ## Getting Started <a name = "gs"></a>
