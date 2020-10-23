@@ -13,11 +13,11 @@ const main = document.createElement('div');
 main.appendChild(home());
 parent.appendChild(main);
 
-const tab = (lid) => {
+const tab = (linkId) => {
   let a;
-  if (lid === 'home') a = home();
-  if (lid === 'menu') a = menu();
-  if (lid === 'contact') a = contact();
+  if (linkId === 'home') a = home();
+  if (linkId === 'menu') a = menu();
+  if (linkId === 'contact') a = contact();
 
   return a;
 };
