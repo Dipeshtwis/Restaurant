@@ -8,10 +8,7 @@ parent.style.background = "url('assets/img/b.jpg') center no-repeat";
 
 parent.appendChild(nav());
 const link = document.querySelectorAll('.links');
-const main = document.createElement('div');
-
-main.appendChild(home());
-parent.appendChild(main);
+parent.appendChild(home());
 
 const tab = (linkId) => {
   let a;
@@ -26,7 +23,7 @@ const tab = (linkId) => {
 link.forEach((li) => {
   li.addEventListener('click', () => {
     const element = tab(li.id);
-    main.innerHTML = '';
-    main.appendChild(element);
+    parent.removeChild(parent.childNodes[1]);
+    parent.appendChild(element);
   });
 });
