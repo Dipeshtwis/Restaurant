@@ -50,6 +50,7 @@
 
 .gmail {
   font-size: 36px;
+  line-height: 48px;
 }
 
 .phone {
@@ -59,4 +60,8 @@
 
 .pad {
   padding: 4rem;
+}
+
+.links {
+  cursor: pointer;
 }
