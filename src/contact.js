@@ -1,6 +1,6 @@
 const contact = () => {
-const spec = document.createElement('div');
-	spec.style.padding = "6rem";
+  const spec = document.createElement('div');
+  spec.style.padding = '6rem';
   const name = document.createElement('h1');
   name.innerHTML = 'Dipesh Kumar';
   name.style.cssText = 'color :white; font-size: 48px; text-align: center; margin-top: 3.5rem;';

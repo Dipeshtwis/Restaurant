@@ -1,6 +1,6 @@
 const home = () => {
   const spec = document.createElement('div');
-  spec.style.padding = "6rem";
+  spec.style.padding = '6rem';
   const head = document.createElement('h1');
   head.innerHTML = 'Welcome to the Fast Food Restaurant';
   head.style.cssText = 'color :white; font-size: 48px; text-align: center; margin-top: 3.5rem;';
