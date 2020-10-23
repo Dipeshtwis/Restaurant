@@ -1,0 +1,62 @@
+.nav-bar {
+  background-color: #ba8500;
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+.nav-link {
+  list-style: none;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-div {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  padding: 3rem;
+}
+
+.menu-header {
+  color: white;
+  font-size: 24px;
+  margin: 1rem 0;
+}
+
+.menu-desc {
+  color: white;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 1rem;
+}
+
+.menu-img {
+  height: 200px;
+}
+
+.contact {
+  padding: 6rem;
+}
+
+.contact-para {
+  color: white; 
+  text-align: center;
+  margin-top: 3.5rem;
+}
+
+.name {
+  font-size: 48px;
+}
+
+.gmail {
+  font-size: 36px;
+}
+
+.phone {
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.pad {
+  padding: 4rem;
+}

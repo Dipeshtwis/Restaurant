@@ -4,7 +4,7 @@ import menu from './menu';
 import contact from './contact';
 
 const parent = document.getElementById('content');
-parent.style.background = "url('b.jpg') center";
+parent.style.background = "url('assets/img/b.jpg') center";
 
 parent.appendChild(nav());
 parent.appendChild(home());

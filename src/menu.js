@@ -1,92 +1,92 @@
 const menu = () => {
-  const spec = document.createElement('div');
-  spec.style.cssText = 'display: grid; grid-template-columns: repeat(2,1fr); padding:3rem;';
+  const menuDiv = document.createElement('div');
+  menuDiv.className = 'menu-div';
 
   // menu1
 
   const menu1 = document.createElement('div');
-  spec.appendChild(menu1);
+  menuDiv.appendChild(menu1);
 
   const head = document.createElement('h3');
   head.innerHTML = 'Noodles';
-  head.style.cssText = 'color :white; font-size: 24px; margin: 1rem 0;';
+  head.className = 'menu-header';
   menu1.appendChild(head);
 
   const img = document.createElement('img');
-  img.style.cssText = 'height: 200px';
-  img.src = 'noodle.jpg';
+  img.className = 'menu-img';
+  img.src = 'assets/img/noodle.jpg';
   img.alt = 'img';
   menu1.appendChild(img);
 
   const para = document.createElement('p');
   para.innerHTML = 'Rupee 100 per/plate';
-  para.style.cssText = 'color :white; font-size: 18px; line-height: 30px; padding: .5rem;';
+  para.className = 'menu-desc';
   menu1.appendChild(para);
 
   // menu2
 
   const menu2 = document.createElement('div');
-  spec.appendChild(menu2);
+  menuDiv.appendChild(menu2);
 
   const title = document.createElement('h3');
   title.innerHTML = 'Pasta';
-  title.style.cssText = 'color :white; font-size: 24px; margin: 1rem 0;';
+  title.className = 'menu-header';
   menu2.appendChild(title);
 
   const imge = document.createElement('img');
-  imge.style.cssText = 'height: 200px';
-  imge.src = 'pastaa.jpg';
+  imge.className = 'menu-img';
+  imge.src = 'assets/img/pastaa.jpg';
   imge.alt = 'imge';
   menu2.appendChild(imge);
 
   const desc = document.createElement('p');
   desc.innerHTML = 'Rupee 80 per/plate';
-  desc.style.cssText = 'color :white; font-size: 18px; line-height: 30px; padding: 1rem;';
+  desc.className = 'menu-desc';
   menu2.appendChild(desc);
 
   // menu3
 
   const menu3 = document.createElement('div');
-  spec.appendChild(menu3);
+  menuDiv.appendChild(menu3);
 
   const ti = document.createElement('h3');
   ti.innerHTML = 'Biryani';
-  ti.style.cssText = 'color :white; font-size: 24px; margin: 1rem 0;';
+  ti.className = 'menu-header';
   menu3.appendChild(ti);
 
   const image = document.createElement('img');
-  image.style.cssText = 'height: 200px';
-  image.src = 'biryani.jpg';
+  image.className = 'menu-img';
+  image.src = 'assets/img/biryani.jpg';
   image.alt = 'imge';
   menu3.appendChild(image);
 
   const des = document.createElement('p');
   des.innerHTML = 'Rupee 150 per/plate';
-  des.style.cssText = 'color :white; font-size: 18px; line-height: 30px; padding: .5rem;';
+  des.className = 'menu-desc';
   menu3.appendChild(des);
 
   // menu4
 
   const menu4 = document.createElement('div');
-  spec.appendChild(menu4);
+  menuDiv.appendChild(menu4);
 
   const header = document.createElement('h3');
   header.innerHTML = 'Papdi Chaat';
-  header.style.cssText = 'color :white; font-size: 24px; margin: 1rem 0;';
+  header.className = 'menu-header';
   menu4.appendChild(header);
 
   const im = document.createElement('img');
-  im.style.cssText = 'height: 200px';
-  im.src = 'chaat.jpg';
+  im.className = 'menu-img';
+  im.src = 'assets/img/chaat.jpg';
   im.alt = 'imge';
   menu4.appendChild(im);
 
   const de = document.createElement('p');
   de.innerHTML = 'Rupee 150 cup';
-  de.style.cssText = 'color :white; font-size: 18px; line-height: 30px; padding: .5rem;';
+  de.className = 'menu-desc';
   menu4.appendChild(de);
 
-  return spec;
+  return menuDiv;
 };
 
 export default menu;

@@ -1,9 +1,9 @@
 const nav = () => {
   const nav = document.createElement('nav');
-  nav.style.cssText = 'background-color: #ba8500; padding:1rem; border-radius:20px;';
+  nav.className = 'nav-bar';
 
   const ul = document.createElement('ul');
-  ul.style.cssText = 'list-style: none; color :white; display: flex; justify-content: space-around;';
+  ul.className = 'nav-link';
   nav.appendChild(ul);
 
   const li = document.createElement('li');
